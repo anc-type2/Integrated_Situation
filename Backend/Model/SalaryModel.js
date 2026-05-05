@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 
 const SalarySchema = new mongoose.Schema({
     "GlossySalary": Number,
-    "TotalDeduction":String,
+    "TotalDeduction":Number,
     "NetSalary": Number,
-    "Month":Number
+    "Month":String
 })
 
 
